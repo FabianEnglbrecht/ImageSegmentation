@@ -7,6 +7,9 @@ Documentation is provided in the individual python scripts
 Visualization results are shown in Fig.1 - Fig.5
 
 
+---
+
+
 ![nuclei parameters](https://github.com/FabianEnglbrecht/ImageSegmentation/blob/main/_Fig2_cell_parameters.jpg)
 #### Performance of automated and manual nuclei annotation: 
 
