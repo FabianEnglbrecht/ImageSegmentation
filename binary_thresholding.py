@@ -10,10 +10,13 @@ cl_img = clahe.apply(img)
 plt.hist(cl_img.flat, bins = 100, range=(100,255))
 #plt.show()
 
+#Declare threshold 1
 ret, thresh1 = cv2.threshold(cl_img, 150,250, cv2.THRESH_BINARY)
 
+#Declare threshold 2
 ret2, thresh2 = cv2.threshold(cl_img, 50,255, cv2.THRESH_BINARY+cv2.THRESH_OTSU)
 
+#Declare threshold 3
 ret3, thresh3 = cv2.threshold(cl_img, 0,255, cv2.THRESH_MASK)
 
 #cv2.imshow("Original", img)
