@@ -1,14 +1,12 @@
 # ImageSegmentation
 
-The ImageSegmentation repository allows to analyze and visualize biological parameters from live cell imaging microscopy data 
+The ImageSegmentation repository allows to analyze and visualize biological parameters from live cell imaging microscopy data.
 
-Documentation is provided in the individual python scripts
+Documentation is provided in the individual python scripts.
 
-Visualization results are shown in Fig.1 - Fig.5
-
+Visualization results are shown in Fig.1 - Fig.5.
 
 ---
-
 
 ![nuclei parameters](https://github.com/FabianEnglbrecht/ImageSegmentation/blob/main/_Fig2_cell_parameters.jpg)
 #### Performance of automated and manual nuclei annotation: 
@@ -19,6 +17,7 @@ B: Regions of interest provided by automatic and manual nuclei annotation.
 
 C: Annotation duration of a dataset containing 6409 fluorescently labelled nuclei with automatic (~5 minutes) and manual data annotation (~15 hours)
 
+---
 
 ![nuclei tracking](https://github.com/FabianEnglbrecht/ImageSegmentation/blob/main/_Fig4_tracking.jpg)
 #### Nuclei tracking results based on an automatically annotated dataset:
